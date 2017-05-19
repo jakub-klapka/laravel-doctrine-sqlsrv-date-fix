@@ -1,0 +1,22 @@
+{
+    "name": "jakub-klapka/laravel-doctrine-sqlsrv-date-fix",
+    "description": "Fixes datetime type bug with DBAL and MSSQL",
+    "keywords": ["laravel", "doctrine", "mssql"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Klapka",
+            "email": "klapka@lumiart.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel-doctrine/orm": ">=1.3",
+        "laravel/framework": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "JakubKlapka\\LaravelDoctrineSqlsrvDateFix\\" : "./src"
+        }
+    }
+}
